@@ -1,0 +1,37 @@
+{
+  "name": "sunny_rewards_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.7.0",
+    "@wdio/cli": "^7.30.2",
+    "@wdio/cucumber-framework": "^7.30.2",
+    "@wdio/local-runner": "^7.30.2",
+    "@wdio/spec-reporter": "^8.6.8",
+    "chai": "^4.4.1",
+    "chromedriver": "^125.0.2",
+    "cucumber-html-reporter": "^6.0.0",
+    "fs-extra": "^11.1.1",
+    "multiple-cucumber-html-reporter": "^3.3.0",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-html-reporter": "^1.0.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "allure": "^0.0.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "faker": "^6.6.6",
+    "pg": "^8.11.3",
+    "wdio-cucumberjs-json-reporter": "^4.4.3",
+    "webdriverio": "^7.34.0"
+  }
+}
